@@ -1,0 +1,90 @@
+.App {
+  text-align: center;
+
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+input{
+  padding: 10px;
+  width: 400px
+}
+button{
+  padding: 10px
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.table {
+  width: 100%;
+  margin-top: 10px;
+}
+
+/* Table Header Styles */
+.table thead {
+  background-color: #f2f2f2;
+}
+
+.table th {
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Table Body Styles */
+.table tbody td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Alternate row color */
+.table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Hover effect on rows */
+.table tbody tr:hover {
+  background-color: #ebebeb;
+}
+.page{
+  width: 100%;
+  margin-right: 100px;
+  display: flex;
+  justify-content: flex-end;
+}
+.input{
+  width: 100%;
+  margin-top: 100px;
+  margin-right: 100px;
+  display: flex;
+  justify-content: flex-end;
+}
+.pagination{
+  display: flex;
+  list-style: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .table {
+    width: 100vw;
+    overflow-x: auto;
+
+
+    font-size: 12px;
+
+  }
+  input{
+    width: 200px;
+  }
+}
+
+
+
+
+
